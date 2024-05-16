@@ -18,9 +18,11 @@ This project is a web-based implementation of FIFA's FUT Draft game mode with an
 
 ## Setup and Installation
 1. Unzip the file.
-2. Install the required Python packages with `pip install pycountry'.
-3. Start the Flask server using `flask run`.
-4. Access the website by navigating to the link displayed after 'Running on' in your terminal.
+2. Install the cs50 library with 'pip install cs50'
+3. Ensure that the Flask-Session extension is installed in your environment with 'pip install Flask-Session'
+4. Install the required Python packages with `pip install pycountry'.
+5. Start the Flask server using `flask run`.
+6. Access the website by navigating to the link displayed after 'Running on' in your terminal.
 
 ## Usage
 - Sign up for an account and log in.
