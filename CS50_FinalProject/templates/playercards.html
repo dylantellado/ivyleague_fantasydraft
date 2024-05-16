@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}Player Cards{% endblock %}
+
+{% block main %}
+
+    <div class="card-container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="{{ image_url }}" alt="Player image">
+                    <div class="rating-container">{{ rating }}</div>
+                    <div class="badge-flag-container">
+                        <img class="badge-card" src="{{ badge }}" alt="College Badge">
+                        <img class="flag" src="{{ flag_url }}" alt="Country flag">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">{{ name }}</h5>
+                        <p class="card-text">
+                            <strong>#</strong> {{ number }}<br>
+                            <strong>Position:</strong> {{ position }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

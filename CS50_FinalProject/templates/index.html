@@ -1,0 +1,58 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+<div class="container">
+    <header>
+        <h1>Ivy League Fantasy Draft</h1>
+    </header>
+
+    <div class="logo-section">
+        <!-- Repeat for each Ivy League school -->
+        <div class="logo">
+            <img src="static/images/Cornell_Bears_logo.png" alt="Cornell">
+        </div>
+        <div class="logo">
+            <img src="static/images/Princeton_Tigers_logo.png" alt="Princeton">
+        </div>
+        <div class="logo">
+            <img src="static/images/Dartmouth_BigGreen_logo.png" alt="Dartmouth">
+        </div>
+        <div class="logo">
+            <img src="static/images/Brown_Bears_logo.png" alt="Brown">
+        </div>
+        <div class="logo">
+            <img src="static/images/Harvard_Crimson_logo.png" alt="Harvard">
+        </div>
+        <div class="logo">
+            <img src="static/images/Penn_Quakers_logo.png" alt="Penn">
+        </div>
+        <div class="logo">
+            <img src="static/images/Columbia_Lions_logo.png" alt="Columbia">
+        </div>
+        <div class="logo">
+            <img src="static/images/Yale_Bulldogs_logo.png" alt="Yale">
+        </div>
+        <!-- ... more logos ... -->
+    </div>
+    <div class="content-section">
+        <p>
+            Welcome to a strategic drafting challenge featuring the 2023 Ivy League men's soccer players. Select your ideal team based on player ratings and compete based on their real-life season performances.
+        </p>
+    </div>
+    <div class="content-section-2">
+        <p>
+            Use the navigation bar to get started
+        </p>
+    </div>
+    <!--
+    <div class="responsive-iframe">
+        <iframe src="https://ivyleague.com/sports/msoc" width="1000" height="600"></iframe>
+    </div>
+    -->
+
+</div>
+{% endblock %}

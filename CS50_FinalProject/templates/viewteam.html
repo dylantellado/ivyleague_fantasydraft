@@ -1,0 +1,327 @@
+{% extends "layout.html" %}
+
+{% block title %}Player Cards{% endblock %}
+
+{% block main %}
+
+<div class="row">
+    <div class="team-rating-container">Team Rating: <span>{{ team_rating }}</span></div>
+</div>
+
+<div class="row">
+    <!-- Forward 1 -->
+    <div class="card">
+        {% if 'F1' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['F1']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['F1']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['F1']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['F1']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['F1']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['F1']['number'] }}<br>
+                <strong>Position:</strong> F
+            </p>
+        </div>
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> F
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+    <!-- Forward 2 -->
+    <div class="card">
+        {% if 'F2' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['F2']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['F2']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['F2']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['F2']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['F2']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['F2']['number'] }}<br>
+                <strong>Position:</strong> F
+            </p>
+        </div>
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> F
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+    <!-- Forward 3 -->
+    <div class="card">
+        {% if 'F3' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['F3']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['F3']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['F3']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['F3']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['F3']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['F3']['number'] }}<br>
+                <strong>Position:</strong> F
+            </p>
+        </div>
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> F
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+
+<div class="row">
+    <!-- M 1 -->
+    <div class="card">
+        {% if 'M1' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['M1']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['M1']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['M1']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['M1']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['M1']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['M1']['number'] }}<br>
+                <strong>Position:</strong> M
+            </p>
+        </div>
+
+
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> M
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+    <!-- M 2 -->
+    <div class="card">
+        {% if 'M2' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['M2']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['M2']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['M2']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['M2']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['M2']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['M2']['number'] }}<br>
+                <strong>Position:</strong> M
+            </p>
+        </div>
+
+
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> M
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+    <!-- M 3 -->
+    <div class="card">
+        {% if 'M3' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['M3']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['M3']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['M3']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['M3']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['M3']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['M3']['number'] }}<br>
+                <strong>Position:</strong> M
+            </p>
+        </div>
+
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> M
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+<!-- END OF MIDFIELDERS -->
+</div>
+
+<!-- DEFENDERS -->
+<div class="row">
+    <!-- D 1 -->
+    <div class="card">
+        {% if 'D1' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['D1']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['D1']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['D1']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['D1']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['D1']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['D1']['number'] }}<br>
+                <strong>Position:</strong> D
+            </p>
+        </div>
+
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> D
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+    <!-- D 2 -->
+    <div class="card">
+        {% if 'D2' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['D2']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['D2']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['D2']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['D2']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['D2']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['D2']['number'] }}<br>
+                <strong>Position:</strong> D
+            </p>
+        </div>
+
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> D
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+    <!-- D 3 -->
+    <div class="card">
+        {% if 'D3' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['D3']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['D3']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['D3']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['D3']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['D3']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['D3']['number'] }}<br>
+                <strong>Position:</strong> D
+            </p>
+        </div>
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> D
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+    <!-- D 4 -->
+    <div class="card">
+        {% if 'D4' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['D4']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['D4']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['D4']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['D4']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['D4']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['D4']['number'] }}<br>
+                <strong>Position:</strong> D
+            </p>
+        </div>
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> D
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+<!-- GOALKEEPER -->
+<div class="row">
+    <div class="card">
+        {% if 'G' in view_players_dict %}
+        <img class="card-img-top" src="{{ view_players_dict['G']['image_url'] }}" alt="Player image">
+        <div class="rating-container">{{ view_players_dict['G']['rating'] }}</div>
+        <div class="badge-flag-container">
+            <img class="badge-card" src="{{ view_players_dict['G']['badge'] }}" alt="Badge">
+            <img class="flag" src="{{ view_players_dict['G']['country'] }}" alt="flag">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">{{ view_players_dict['G']['p_name'] }}</h5>
+            <p class="card-text">
+                <strong>#</strong> {{ view_players_dict['G']['number'] }}<br>
+                <strong>Position:</strong> GK
+            </p>
+        </div>
+        {% else %}
+        <div class="card-body">
+            <h5 class="card-title">Player Name</h5>
+            <p class="card-text">
+                <strong>#</strong><br>
+                <strong>Position:</strong> GK
+            </p>
+        </div>
+        {% endif %}
+
+    </div>
+</div>
+
+
+{% endblock %}
