@@ -17,7 +17,7 @@ The **homepage** provides a clear and organized interface, offering quick access
 ![Homepage](sample_homepage.png)
 
 ### **Player Search Feature**
-The **player search** feature allows users to **search for Ivy League players** by name. The search results display **dynamic player cards** with detailed **performance statistics** and **player information**.
+The **player search** feature allows users to **search for Ivy League players** by name. The search results display **dynamic player cards** with detailed **player information** and **ratings** calculated from **real-time performance statistics** from the **2023 season**.
 
 ![Player Search](sample_player_search.png)
 
