@@ -6,6 +6,31 @@ https://youtu.be/WuBXXSHmV_c
 ## Introduction
 This project is a web-based implementation of FIFA's FUT Draft game mode with an Ivy League twist. Users can create an account, draft their own team, and compete in a leaderboard ranking.
 
+
+## Overview
+
+The **Ivy League Fantasy Draft Website** offers an engaging experience where users can **search for Ivy League players**, draft a **fantasy team**, and compare their team’s performance on a **leaderboard**.
+
+### **Homepage**
+The **homepage** provides a warm welcome and a clear call to action, guiding users to explore the **Player Search**, **Draft**, **View Team**, and **Leaderboard** sections.
+
+![Homepage](sample_homepage.png)
+
+### **Player Search Feature**
+The **player search** feature allows users to **search for Ivy League players** by name. The search results display **dynamic player cards** with detailed **performance statistics** and **player information**.
+
+![Player Search](sample_player_search.png)
+
+### **Player Selection for Drafting**
+On the **Draft Page**, users can select players to build their ideal fantasy team. The player cards display **performance ratings**, **positions**, and **college affiliations**.
+
+![Player Selection](sample_player_selection.png)
+
+### **Team Drafting Interface**
+The **team drafting interface** shows the selected players, allowing users to **finalize and save** their team. The **team rating** provides immediate feedback on the strength of the drafted team.
+
+![Team Draft](sample_team_draft.png)
+
 ## Features
 - **User Accounts**: Secure sign-up and authentication system to manage user sessions.
 - **Team Drafting**: Users can draft their team from a roster of Ivy League players from the 2023 season.
